@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'McLaren', cursive;
+}
+body{
+    background-color: #FDEEDC;
+}
+/* Header */
+.headerKeeper{
+    background-color: #E38B29;
+    color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+}
+/* Footer */
+.footerKeeper{
+    width: fit-content;
+    /* position: absolute; */
+    top: 95%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Note */
+.note{
+    margin-top: 15px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 10px;
+    background-color: #FFF5E4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.noteContent{
+    min-height: 232px;
+}
+.Title{
+    border-bottom:2px solid gray ;
+}
+.Description{
+    margin-top: 5px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkfull{
+    text-decoration: none;
+    color: black;
+}
+.linkfull :hover{
+    color: #E38B29;
+}
+.create{
+    
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    
+    
+}
+form{
+    position: sticky;
+    top: 0;
+}
+.stylebox{
+    border: 2px solid #E38B29;
+    border-radius: 10px;
+    background-color:#FFF5E4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Heading,.description{
+    display: flex;
+    justify-content: center;
+}
+
+.title,.notec{
+    width: 95%;
+    min-height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color:#FFF5E4;
+    
+}
+.bt{
+    width: 50px;
+    margin:10px auto 10px auto;
+}
+button{
+    width: 100%;
+    background-color: #E38B29;
+    border: none;
+   
+}
